@@ -1,9 +1,9 @@
 import java.util.Scanner;
+
 public class TempConv{
     public static void main(String[] args) {
         System.out.println("Temperature Converter");
 
-        
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter Value");
             int val = sc.nextInt();
